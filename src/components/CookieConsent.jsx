@@ -49,7 +49,7 @@ export default function CookieConsent() {
         border: '1px solid #1e293b'
       }}>
         <h3 style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '1rem', letterSpacing: '-0.5px' }}>
-          Welcome to MK LLP
+          Welcome to BAGYAM TEC
         </h3>
         
         <p style={{ fontSize: '0.9rem', lineHeight: '1.6', color: '#94a3b8', marginBottom: '2rem', textAlign: 'left' }}>
