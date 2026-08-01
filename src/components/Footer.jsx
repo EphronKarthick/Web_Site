@@ -17,7 +17,7 @@ export default function Footer() {
     }}>
       <div className="container" style={{ padding: '0', maxWidth: '1200px' }}>
         <p style={{ fontSize: '0.95rem', marginBottom: '1rem', opacity: 0.9 }}>
-          © 2026 MK LLP | Digital Transformation Consulting
+          © 2026 BAGYAM TEC | Digital Transformation Consulting
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', fontSize: '0.85rem' }}>
           <button 
@@ -70,15 +70,15 @@ export default function Footer() {
             
             {modalContent === 'privacy' ? (
               <div style={{ fontSize: '0.95rem', lineHeight: '1.6', opacity: 0.9, display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                <p>At MK LLP, we respect your privacy and are committed to protecting any information you share with us through direct email inquiries.</p>
+                <p>At BAGYAM TEC, we respect your privacy and are committed to protecting any information you share with us through direct email inquiries.</p>
                 <p><strong>Information Collected:</strong> We only collect professional email addresses and project specifics voluntarily provided by prospective clients.</p>
                 <p><strong>Usage:</strong> Information is used exclusively to respond to business inquiries and provide digital transformation consulting quotes.</p>
               </div>
             ) : (
               <div style={{ fontSize: '0.95rem', lineHeight: '1.6', opacity: '0.9', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                <p>Welcome to MK LLP. By accessing our website and contacting our software team, you agree to these standard business terms.</p>
+                <p>Welcome to BAGYAM TEC. By accessing our website and contacting our software team, you agree to these standard business terms.</p>
                 <p><strong>Services:</strong> All software development, low-code architecture, and automation strategies are subject to formal statements of work (SOW).</p>
-                <p><strong>Intellectual Property:</strong> All branding, design layouts, and copy content remain the property of MK LLP © 2026.</p>
+                <p><strong>Intellectual Property:</strong> All branding, design layouts, and copy content remain the property of BAGYAM TEC © 2026.</p>
               </div>
             )}
 
