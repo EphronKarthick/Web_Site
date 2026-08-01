@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">MK LLP</div>
+      <div className="logo">BAGYAM TEC</div>
 
       {/* Right-aligned wrapper containing links and theme action */}
       <div className="nav-actions-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '2rem', marginLeft: 'auto' }}>
