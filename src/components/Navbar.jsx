@@ -19,7 +19,17 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">BAGYAM TEC</div>
+      {/* <div className="logo">BAGYAM TEC</div> */}
+
+      {/* Wrap logo and text in a flex container for alignment */}
+      <div className="logo-container" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <img 
+          src="/path-to-your-logo.png" 
+          alt="BAGYAM TEC Logo" 
+          style={{ height: '40px', width: 'auto' }} 
+        />
+        <span className="logo-text">BAGYAM TEC</span>
+      </div>
 
       {/* Right-aligned wrapper containing links and theme action */}
       <div className="nav-actions-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '2rem', marginLeft: 'auto' }}>
