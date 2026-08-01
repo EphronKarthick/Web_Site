@@ -1,6 +1,4 @@
-import React from 'react';
 import React, { useState, useEffect } from 'react';
-import logoImage from '../assets/images/Logo.jpg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,20 +19,9 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      {/* <div className="logo">BAGYAM TEC</div> */}
+      <div className="logo">BAGYAM TEC</div> 
 
-      {/* Wrap logo and text in a flex container for alignment */}
-      <div className="logo-container" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-         
-        <img 
-          src="/test.jpg" 
-          alt="BAGYAM TEC Logo" 
-          style={{ height: '40px', width: 'auto' }} 
-        />
-        <span className="logo-text">BAGYAM TEC</span>
-      </div>
-
-      {/* Right-aligned wrapper containing links and theme action */}
+     {/* Right-aligned wrapper containing links and theme action */}
       <div className="nav-actions-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '2rem', marginLeft: 'auto' }}>
         <ul className={isOpen ? "nav-links active" : "nav-links"}>
           <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
