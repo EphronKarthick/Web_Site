@@ -14,7 +14,7 @@ export default function Hero() {
         </h1>
         
         <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', marginBottom: '2rem', lineHeight: '1.6' }}>
-          MK LLP empowers forward-thinking enterprises with cutting-edge low-code ecosystems, bespoke software architecture, and advanced analytics to eliminate operational friction and scale with precision.
+          BAGYAM TEC empowers forward-thinking enterprises with cutting-edge low-code ecosystems, bespoke software architecture, and advanced analytics to eliminate operational friction and scale with precision.
         </p>
         
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
