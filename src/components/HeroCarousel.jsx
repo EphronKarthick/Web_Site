@@ -4,7 +4,7 @@ const slides = [
   {
     tag: 'Next-Generation Enterprise Solutions',
     title: 'Accelerating Digital Evolution Through Intelligent Automation',
-    description: 'MK LLP empowers forward-thinking enterprises with cutting-edge low-code ecosystems, bespoke software architecture, and advanced analytics to eliminate operational friction and scale with precision.'
+    description: 'BAGYAM TEC empowers forward-thinking enterprises with cutting-edge low-code ecosystems, bespoke software architecture, and advanced analytics to eliminate operational friction and scale with precision.'
   },
   {
     tag: 'Enterprise Low-Code Platforms',
