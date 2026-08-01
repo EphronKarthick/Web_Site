@@ -9,7 +9,7 @@ export default function Portfolio() {
     <section className="container" id="portfolio">
       <h2>Case Studies</h2>
       <p style={{ marginBottom: '2rem', maxWidth: '1200px', fontSize: '1.05rem', color: 'var(--text-muted)' }}>
-        Explore how MK Nexa Solutions transforms enterprise operations with tailored Microsoft Power Platform architectures, delivering high ROI and seamless user adoption.
+        Explore how BAGYAM TEC transforms enterprise operations with tailored Microsoft Power Platform architectures, delivering high ROI and seamless user adoption.
       </p>
 
       <div className="grid-4">
