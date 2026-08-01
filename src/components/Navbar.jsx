@@ -24,8 +24,9 @@ export default function Navbar() {
 
       {/* Wrap logo and text in a flex container for alignment */}
       <div className="logo-container" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+         
         <img 
-          src="/path-to-your-logo.png" 
+          src={logoImage} 
           alt="BAGYAM TEC Logo" 
           style={{ height: '40px', width: 'auto' }} 
         />
