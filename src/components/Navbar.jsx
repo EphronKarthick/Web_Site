@@ -1,3 +1,4 @@
+import React from 'react';
 import React, { useState, useEffect } from 'react';
 import logoImage from '../assets/images/Logo.jpg';
 
